@@ -11,9 +11,6 @@ class Formatter {
 
   static titleize(input){
     let exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
-    
-    
-    
     var wordsArray = input.split(" ")
     wordsArray[0] = Formatter.capitalize(wordsArray[0])
     var wordsArrayLength = wordsArray.length
